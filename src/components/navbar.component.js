@@ -6,6 +6,7 @@ import { HamburgerSpin } from 'react-animated-burgers'
 
 export default class Navbar extends Component {
 
+  // to make the browser scroll to top of the site when user enters this page
   componentDidMount() {
     window.scrollTo(0, 0);
   }
@@ -42,8 +43,13 @@ export default class Navbar extends Component {
             <Link to="/" className="navbar-brand logo"><img src="https://paninibay.com/wp-content/uploads/2017/05/panini-bay-logo.png" 
             class="relative" alt="Panini Bay" style={{top: "0px", maxWidth: "140px"}}/></Link>
             <div >
+
+            {/* homburger icon */}
             <HamburgerSpin buttonStyle={{barColor: "white",outline: 'none',
              boxShadow: 'none'}} buttonWidth={30} isActive={this.state.isActive} toggleButton={this.toggleButton} />
+             {/* end of homburger icon */}
+
+              {/* menu items */}
              <div ref="mySidenav" id="mySidenav" class="sidenav">
                <div className="container side">
                  <div className="row">
@@ -55,12 +61,15 @@ export default class Navbar extends Component {
                       <a href="/#menu-section" className="nav-item-right" onClick={this.toggleButton}>Menus</a>
                       <Link to="/our-story" className="nav-item-right" onClick={this.toggleButton}>Our Story</Link>
                       <Link to="/our-chef" className="nav-item-right" onClick={this.toggleButton}>Chef Ivar Johnson</Link> 
+
+                      {/* info part */}
                     <div className="contact-menu-list">
                       <ul className="mbs">
                         <li><span className="uppercase">PHONE:<a href="tel:609-294-4281">609-294-4281</a></span></li>
                         <li><span className="uppercase">EMAIL:<a href="mailto:paninibay@gmail.com">paninibay@gmail.com</a></span></li>
                       </ul>
 
+                      {/* social media part */}
                       <ul className="margin0 padding0 nav-social">
                         <li className="inline-block">
                             <a href="https://www.yelp.com/waitlist/panini-bay-tuckerton/app_pitch?utm_source=panini-bay-tuckerton&utm_medium=nw_restaurant_website_widget&utm_campaign=waitlist_closed&utm_term=widget_desktop&waitlist_state=2"

@@ -11,6 +11,7 @@ export default class Footer extends Component {
       <div>
           <footer className="site-footer">
 
+              {/* social media part */}
               <div className="container">
                 <div className="block center-item mvs">
                     <ul className="margin0 padding0 center-text">
@@ -37,6 +38,7 @@ export default class Footer extends Component {
 
                 </div>
 
+                {/* paninibay icon */}
                 <a class="block center-item center-text footer-logo" href="/" title="Panini Bay">
                   <img src="https://paninibay.com/wp-content/uploads/2017/05/panini-bay-logo.png" alt="Panini Bay"/>
                 </a>

@@ -13,7 +13,7 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        {/* home section */}
+        {/* home section-1 */}
         <section className="container-fluid" id="home-1">
          <div className="row row1">
           <div className="col-xl-7 d-none d-lg-block d-xl-block col-lg-7">
@@ -32,7 +32,7 @@ export default class Home extends Component {
 			  	</div>
         </section> 
 
-        {/* menu section */}
+        {/* menu section-2 */}
           <section className="container menu-section" >
             <div className="mtxl mbl padding0_60 opacity-transform reading-box">
             <Fade bottom>
@@ -53,6 +53,7 @@ export default class Home extends Component {
                 <p>Cash allowed on curbside pickup, but no change available</p>
               </div>
 
+              {/* home-section-2-menu-part */}
               <div className="row" >
                 <div className="padding0_30 col-xs-12 col-lg-4 opacity-transform column-2"> 
                   <a href="https://paninibay.com/wp-content/uploads/2020/06/PB-Takeout-Menu-3.pdf" className="menu-button">
@@ -136,7 +137,6 @@ export default class Home extends Component {
 
           {/* home info section */}
           <section className="container mtxl home-info">
-
             <div className="row margin-b-30">
 
               <div className="d-none d-xs-none d-sm-block col-sm-7 mbs ">
@@ -162,9 +162,9 @@ export default class Home extends Component {
                <span className="block mobile-center small">Sunday 12pm - 8pm</span>
                <span className="block mobile-center small">Private parties are welcome during off-season</span>
               </div>
-
             </div>
 
+            {/* home-info-yelp-part */}
             <div className="center-text mx-auto mvl yelp-section">
              <h2 className="mvs mobile-center">CHECK WAIT TIMES &amp; GET IN LINE</h2>
              <iframe src="https://www.yelp.com/waitlist/panini-bay-tuckerton/widget" frameborder="0" width="250" height="326"></iframe>

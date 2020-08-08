@@ -15,7 +15,7 @@ export default class OurStory extends Component {
             <article className="mtm hentry " id="our-chef">
                 <div className="entry-content">
 
-                    {/* our-chef-1 */}
+                    {/* our-story-1 */}
                     <section className="container margin-top-large">
                         <div className="row">
 
@@ -51,7 +51,7 @@ export default class OurStory extends Component {
                         </div>
                     </section>
 
-                    {/* our-chef-2 */}
+                    {/* our-story-2 */}
                     <section className="margin-top-medium mvxl mobile-mbl container " id="our-chef-2">
                         <div className="row">
                             <div className="col-xs-12 col-sm-6 offset-sm-0 col-md-5 offset-md-1 mtm">
@@ -74,6 +74,7 @@ export default class OurStory extends Component {
                         </div>
                     </section>
 
+                    {/* our-story-3 */}
                     <section className="container mobile-mbl our-story-3 mb-5">
                         <div className="reading-box center-item mbs center-text">
                           {/*fade animation */}
