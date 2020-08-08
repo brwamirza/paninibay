@@ -1,0 +1,175 @@
+.bg-light {
+    background-color: rgba(255, 255, 255, 0.4)!important;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.sidenav {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1s;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+    transform: translate(120vw);
+  }
+
+  
+  .sidenav a {
+    float: right;
+    text-decoration: none;
+    color: #46484d;
+    display: block;
+    font-size: 38px;
+    transition: 0.3s;
+    overflow-x: hidden;  
+  }
+
+ .sidenav img{
+    transition: 0.2s ease;
+ }
+  
+  
+  .sidenav a:hover{
+    color: #9aa2b2;
+  }
+
+  .doVOuh {
+    width: 30px;
+    height: 18px;
+    display: inline-block;
+    position: relative;
+    z-index: 99;
+}
+
+.nav-left{
+    display: flex;
+    flex-direction: column; /*this will make them vertically placed*/
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+ .logo{
+     z-index: 99;
+ }
+
+ .nav-right{
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    display: flex;
+    flex-direction: column; /*this will make them vertically placed*/
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end!important;
+}
+
+.container{
+padding-right: 0;
+padding-left: 0;
+padding-top: 5px;
+}
+
+.row{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.side{
+    display: flex;
+    flex-direction: column; /*this will make them vertically placed*/
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.trigger {
+    margin: 0 auto;
+    display: block;
+  }
+  
+  @keyframes hide{
+    0% { transform: translate(0);}
+    20% { transform: translate(5px);}
+    100% { transform: translate(120vw);}
+  }
+  
+  @keyframes show {
+    0% { transform: translate(120vw);}
+    80% { transform: translate(5px);}
+    100% { transform: translate(0vw);}
+  }
+  
+  .hide {
+    animation: hide 0.7s forwards ease-in-out;
+  }
+  
+  .show {
+    animation: show 1s forwards ease-in-out;
+  }
+
+
+body {
+    overflow-x: hidden;
+}
+
+.contact-menu-list{
+  margin-top: 42px;
+  vertical-align: middle;
+  display: inline-block;
+
+}
+
+.contact-menu-list a{
+  font-size: 16px;
+  font-family: 'PT Serif', serif;
+  font-weight: 300;
+}
+
+.contact-menu-list span{
+  float: right;
+}
+
+.uppercase{
+  font-weight:bold;
+  font-size: 16px;
+  font-family: 'PT Serif', serif;
+  
+}
+
+.mbs{
+  margin-bottom: 20px!important;
+  list-style: none;
+}
+
+.cPSOaR ,.cPSOaR::before,.cPSOaR::after {
+  height: 2.5px !important;
+}
+
+@media screen and (max-width: 767px){
+  .mobile-mtx{
+    margin-right:auto;
+    margin-left:auto;
+    margin-top: 30%;
+  }
+  
+  .nav-item-right{
+    font-size: 26px!important;
+  }
+
+}
+
+.nav-social li  {
+  padding-right: 15px!important;
+  padding-left: 15px!important;
+  padding-top: 30px!important;
+  float: right;
+}
