@@ -98,29 +98,29 @@ export default class OurStory extends Component {
 
                      {/* image slider section */}
                     <section className="mvl">
-                      <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" data-interval="3000">
+                      <div id="ourStoryCarousel" className="carousel slide" data-ride="carousel" data-interval="3000">
                         <ol className="carousel-indicators">
-                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                          <li data-target="#ourStoryCarousel" data-slide-to="0" class="active"></li>
+                          <li data-target="#ourStoryCarousel" data-slide-to="1"></li>
+                          <li data-target="#ourStoryCarousel" data-slide-to="2"></li>
+                          <li data-target="#ourStoryCarousel" data-slide-to="3"></li>
+                          <li data-target="#ourStoryCarousel" data-slide-to="4"></li>
                         </ol>
                         <div className="carousel-inner">
                           <div className="carousel-item active">
-                            <img className="d-block w-100" src="https://paninibay.com/wp-content/uploads/2017/05/interior-slide-16-9.jpg" alt="Second slide"/>
+                            <img className="d-block w-100" src="https://paninibay.com/wp-content/uploads/2017/05/interior-slide-16-9.jpg" alt="interior slide slide"/>
                           </div>
                           <div className="carousel-item">
-                            <img className="d-block w-100" src="https://paninibay.com/wp-content/uploads/2017/05/fish-slide.jpg" alt="Third slide"/>
+                            <img className="d-block w-100" src="https://paninibay.com/wp-content/uploads/2017/05/fish-slide.jpg" alt="Fish slide"/>
                           </div>
                           <div className="carousel-item">
-                            <img className="d-block w-100" src="https://paninibay.com/wp-content/uploads/2017/05/peppers-slide.jpg" alt="fourth slide"/>
+                            <img className="d-block w-100" src="https://paninibay.com/wp-content/uploads/2017/05/peppers-slide.jpg" alt="peppers slide"/>
                           </div>
                           <div className="carousel-item">
-                            <img className="d-block w-100" src="https://paninibay.com/wp-content/uploads/2017/05/artichoke-slide.jpg" alt="fifth slide"/>
+                            <img className="d-block w-100" src="https://paninibay.com/wp-content/uploads/2017/05/artichoke-slide.jpg" alt="artichoke slide"/>
                           </div>
                           <div className="carousel-item">
-                            <img className="d-block w-100" src="https://paninibay.com/wp-content/uploads/2017/05/veal-milanese-close-slide.jpg" alt="sixth slide"/>
+                            <img className="d-block w-100" src="https://paninibay.com/wp-content/uploads/2017/05/veal-milanese-close-slide.jpg" alt="veal milanese close slide"/>
                           </div>
                         </div>
                           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
