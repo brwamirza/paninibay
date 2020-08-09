@@ -104,11 +104,11 @@ export default class Home extends Component {
                   <img className="d-block w-100" src="https://paninibay.com/wp-content/uploads/2017/05/veal-milanese-close-slide.jpg" alt="veal milanese close slide"/>
                 </div>
               </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon " aria-hidden="true"></span>
                   <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                 </a>
