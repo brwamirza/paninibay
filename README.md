@@ -11,5 +11,5 @@ this is a recreation of paninibay website.
 
 
 ## Screenshots
-![paninibay-desktop](./screenshots/paninibay-desktop.png?raw=true | width=100 "Paninibay Desktop")
-![paninibay-mobile](./screenshots/paninibay-mobile.png?raw=true | width=100 "Paninibay Mobile")
+![paninibay-desktop](./screenshots/paninibay-desktop.png?raw=true width="100" "Paninibay Desktop")
+![paninibay-mobile](./screenshots/paninibay-mobile.png?raw=true width="100" "Paninibay Mobile")
