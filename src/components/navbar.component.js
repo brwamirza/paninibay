@@ -5,11 +5,34 @@ import { HamburgerSpin } from 'react-animated-burgers'
 
 
 export default class Navbar extends Component {
+  constructor(props) {
+    super(props);
+    this.handleScroll = this.handleScroll.bind(this);
+  }
 
   // to make the browser scroll to top of the site when user enters this page
   componentDidMount() {
     window.scrollTo(0, 0);
+    window.addEventListener('scroll', this.handleScroll);
   }
+  
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  };
+
+
+    // to shrink navbar when user scrolls down the page
+    handleScroll(event){
+      if(event.target.documentElement.scrollTop > "250"){
+        this.refs.navbar.classList.remove('bg-light');
+        this.refs.navbar.style.backgroundColor = "#fff";
+        this.refs.logo.style.maxWidth = "110px";
+      } else{
+        this.refs.navbar.classList.add('bg-light');
+        this.refs.navbar.style.height = "inherite";
+        this.refs.logo.style.maxWidth = "140px";
+      }
+    }
 
   state = {
     isActive: false
@@ -36,12 +59,14 @@ export default class Navbar extends Component {
     }
   }
 
+  
+
   render() {
     return (
-      <nav className=" navbar fixed-top navbar-light bg-light navbar-expand-lg">
-        <div className="container">
+      <nav className=" navbar fixed-top navbar-light bg-light navbar-expand-lg" id="navbar" ref="navbar" >
+        <div className="container" >
             <Link to="/" className="navbar-brand logo"><img src="https://paninibay.com/wp-content/uploads/2017/05/panini-bay-logo.png" 
-            class="relative" alt="Panini Bay" style={{top: "0px", maxWidth: "140px"}}/></Link>
+            class="relative" alt="Panini Bay" style={{top: "0px", maxWidth: "140px"}} ref="logo"/></Link>
             <div >
 
             {/* homburger icon */}

@@ -82,7 +82,7 @@ export default class OurStory extends Component {
                               <h2 class="mv0">ENJOY A VIEW</h2>
                               <h3 class="mt0 mbm capitalize">Unlike Any Other</h3>
                               <div class="left-text padding0_60">
-                                <p>
+                                <p className="mt-5">
                                     We chose Panini Bay’s location because of its panoramic view of the Barnegat Bay.
                                     Breathtaking sunsets fill our dining room with light and color, creating 
                                     a view unmatched by any other restaurant in the area.
