@@ -67,11 +67,11 @@ export default class Navbar extends Component {
         <div className="container" >
             <Link to="/" className="navbar-brand logo"><img src="https://paninibay.com/wp-content/uploads/2017/05/panini-bay-logo.png" 
             class="relative" alt="Panini Bay" style={{top: "0px", maxWidth: "140px"}} ref="logo"/></Link>
-            <div >
+            <div>
 
             {/* homburger icon */}
             <HamburgerSpin buttonStyle={{barColor: "white",outline: 'none',
-             boxShadow: 'none'}} buttonWidth={30} isActive={this.state.isActive} toggleButton={this.toggleButton} />
+             boxShadow: 'none'}} buttonWidth={30} isActive={this.state.isActive} toggleButton={this.toggleButton}/>
              {/* end of homburger icon */}
 
               {/* menu items */}
