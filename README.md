@@ -10,4 +10,4 @@ this is a recreation of paninibay website.
 * CSS
 
 
-## Screenshot
+## Screenshots
