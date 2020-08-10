@@ -39,7 +39,7 @@ export default class OurStory extends Component {
                                             Barnegat Bay, and impeccable service to give you a world-class culinary experience.
                                         </p>
                                         <div class="scrollDown relative">
-                                            <a href="#our-chef-2">
+                                            <a href="#our-story-2">
                                              <div class="block"><small><em>scroll down</em></small></div>
 					                	                 <div class="block"><span class="chevron bottom"></span></div>
                                             </a>
