@@ -24,10 +24,10 @@ export default class OurChef extends Component {
 
                             <div className="col-xs-12 col-sm-6">
                                 <div className="row full-height">
-                                    <div className="d-none d-sm-block col-sm-6 offset-md-1 grayBox grayCol margin-top-large">
+                                    <div className="d-none d-sm-block col-sm-6 offset-md-1 grayBox-3 grayCol graybox-mtm">
 
                                     </div>
-                                    <div className=" col-sx-12 col-sm-11 offset-sm-1 col-md-9 offset-md-2 col-lg-8 pull-up" style={{padding: "0"}}>
+                                    <div className=" col-sx-12 col-sm-11 offset-sm-1 col-md-10 offset-md-2 col-lg-9 pull-up-3" style={{padding: "0"}}>
                                         <h1 class="mv0">OUR CHEF</h1>
                                         <h3 class="capitalize mt0 mbm h4-size"><em>Meet Ivar Johnson</em></h3>
                                         <p>
@@ -48,9 +48,9 @@ export default class OurChef extends Component {
                     </section>
 
                     {/* our-chef-2 */}
-                    <section className="margin-top-medium mvxl mobile-mbl container " id="our-chef-2">
+                    <section className="margin-top-medium mobile-mbl container " id="our-chef-2">
                         <div className="row">
-                            <div className="col-xs-12 col-sm-6 offset-sm-0 col-md-5  mtm">
+                            <div className="col-xs-12 col-sm-6 offset-sm-0 col-md-5 align-self-center">
                                 <div className="absoluteValign">
                                 <p>
                                     Chef and owner Ivar Johnson graduated as valedictorian of The Restaurant School 
@@ -71,9 +71,9 @@ export default class OurChef extends Component {
                     </section>
 
                      {/* our-chef-3 */}
-                     <section className="mvxl mobile-mtl container">
+                     <section className="margin-top-medium margin-bottom-medium mobile-mtl container">
                          <div className="row">
-                             <div className="col-xs-12 col-sm-5 order-sm-7 col-md-6 order-md-8">
+                             <div className="col-xs-12 col-sm-5 order-sm-7 col-md-6 order-md-8 align-self-center">
                                 <p>
                                     Chef Ivar showcases his culinary expertise and creativity with every dish. 
                                     Whether you are a seafood lover, steak lover, or a vegetarian, there is something 

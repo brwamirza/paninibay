@@ -24,9 +24,17 @@ body {
     margin-bottom: 80px!important;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 769px){
     .mobile-mbl, .mobile-mvl {
         margin-bottom: 42px!important;
+    }
+
+    .grayBox-2{
+        display: none!important;
+    }
+
+    .pull-up-2{
+        margin-top: 0!important;
     }
 }
 
@@ -34,18 +42,13 @@ body {
     height: 100%;
 }
 
-.grayBox {
+.grayBox-2 {
     width: 50%;
     height: 40%;
 }
 
-#color-bar div:nth-child(2), .grayBox {
+#color-bar div:nth-child(2), .grayBox-2 {
     background-color: #fafafa;
-}
-
-.pull-up {
-    position: relative;
-    margin-top: -10%!important;
 }
 
 .mb0, .mv0 {
@@ -88,13 +91,17 @@ body {
         margin-top: 30px!important;
     }
 
-    .mobile-mtl, .mobile-mvl {
-        margin-top: 42px!important;
+    .margin-top-medium{
+        margin-top: 100px!important;
     }
 
-    .mobile-mbl, .mobile-mvl {
+    /* .mobile-mtl, .mobile-mvl {
+        margin-top: 42px!important;
+    } */
+
+    /* .mobile-mbl, .mobile-mvl {
         margin-bottom: 42px!important;
-    }
+    } */
 
     .pull-up{
         margin-top: 0!important;
@@ -186,4 +193,16 @@ h2{
 
 .padding0_15 {
     padding: 0 15px!important;
+}
+
+.margin-top-medium{
+    margin-top: 150px;
+}
+
+.margin-bottom-medium{
+    margin-bottom: 150px;
+}
+
+.pull-up-2{
+    margin-top: -70px;
 }

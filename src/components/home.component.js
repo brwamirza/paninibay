@@ -78,7 +78,7 @@ export default class Home extends Component {
           </section>
 
           {/* image slider section */}
-          <section className="mvl">
+          <section className="margin-top-medium">
             <div id="homeCarousel" className="carousel slide" data-ride="carousel" data-interval="3000">
               <ol className="carousel-indicators">
                 <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
@@ -116,7 +116,7 @@ export default class Home extends Component {
           </section>
 
           {/* home about section */}
-          <section className="container mvl">
+          <section className="container margin-top-medium">
             <div className="row home-about ">
               <div className="col-xs-12 col-sm-6 mobile-mbs">
                 <div className="grayBox ml50p mtm"></div>
@@ -136,7 +136,7 @@ export default class Home extends Component {
           </section>
 
           {/* home info section */}
-          <section className="container mtxl home-info">
+          <section className="container margin-top-medium home-info">
             <div className="row margin-b-30">
 
               <div className="d-none d-xs-none d-sm-block col-sm-7 mbs ">
@@ -165,7 +165,7 @@ export default class Home extends Component {
             </div>
 
             {/* home-info-yelp-part */}
-            <div className="center-text mx-auto mvl yelp-section">
+            <div className="center-text mx-auto margin-bottom-medium yelp-section margin-top-medium">
              <h2 className="mvs mobile-center">CHECK WAIT TIMES &amp; GET IN LINE</h2>
              <iframe src="https://www.yelp.com/waitlist/panini-bay-tuckerton/widget" frameborder="0" width="250" height="326"></iframe>
             </div>

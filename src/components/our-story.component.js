@@ -25,10 +25,10 @@ export default class OurStory extends Component {
 
                             <div className="col-xs-12 col-sm-6">
                                 <div className="row full-height">
-                                    <div className="d-none d-sm-block col-sm-6 offset-md-1 grayBox grayCol mt-5">
+                                    <div className="d-none d-sm-block col-sm-6 offset-md-1 grayBox-2 grayCol mt-5">
 
                                     </div>
-                                    <div className=" col-sx-12 col-sm-11 offset-sm-1 col-md-9 offset-md-2 col-lg-8 pull-up" style={{padding: "0"}}>
+                                    <div className=" col-sx-12 col-sm-12 offset-sm-1 col-md-10 offset-lg-2 col-lg-9 pull-up-2" style={{padding: "0"}}>
                                         <h1 class="mv0">OUR STORY</h1>
                                         <h3 class="capitalize mt0 mbm h4-size"><em>A Family Dream Come True</em></h3>
                                         <p>
@@ -41,7 +41,7 @@ export default class OurStory extends Component {
                                         <div class="scrollDown relative">
                                             <a href="#our-chef-2">
                                              <div class="block"><small><em>scroll down</em></small></div>
-					                	     <div class="block"><span class="chevron bottom"></span></div>
+					                	                 <div class="block"><span class="chevron bottom"></span></div>
                                             </a>
                                         </div>
                                     </div>
@@ -52,9 +52,9 @@ export default class OurStory extends Component {
                     </section>
 
                     {/* our-story-2 */}
-                    <section className="margin-top-medium mvxl mobile-mbl container " id="our-chef-2">
+                    <section className="margin-top-medium mobile-mbl container " id="our-story-2">
                         <div className="row">
-                            <div className="col-xs-12 col-sm-6 offset-sm-0 col-md-5  mtm">
+                            <div className="col-xs-12 col-sm-6 offset-sm-0 col-md-5 align-self-center">
                                 <div className="absoluteValign">
                                 <h2 className="mb-4">
                                     New Life After The Storm
@@ -75,7 +75,7 @@ export default class OurStory extends Component {
                     </section>
 
                     {/* our-story-3 */}
-                    <section className="container mobile-mbl our-story-3 mb-5">
+                    <section className="container mobile-mbl our-story-3 margin-top-medium">
                         <div className="reading-box center-item mbs center-text">
                           {/*fade animation */}
                            <Fade bottom>  
@@ -97,7 +97,7 @@ export default class OurStory extends Component {
                     </section>
 
                      {/* image slider section */}
-                    <section className="mvl">
+                    <section className=" margin-top-medium">
                       <div id="ourStoryCarousel" className="carousel slide" data-ride="carousel" data-interval="3000">
                         <ol className="carousel-indicators">
                           <li data-target="#ourStoryCarousel" data-slide-to="0" class="active"></li>
@@ -134,9 +134,9 @@ export default class OurStory extends Component {
                       </div>
                     </section>
 
-                    <section className="mvxl mobile-mtl container">
+                    <section className="mobile-mtl container margin-top-medium margin-bottom-medium">
                          <div className="row">
-                             <div className="col-xs-12 col-sm-5 offset-sm-1 order-sm-7 col-md-4 order-md-8 mtm">
+                             <div className="col-xs-12 col-sm-5 offset-lg-1 order-sm-7 col-md-6 col-lg-5 order-md-8 align-self-center">
                                  <h2 className="mb-5">Come by Land or Sea</h2>
                                 <p>
                                    Our waterfront location allows diners to navigate to the restaurant by boat.
