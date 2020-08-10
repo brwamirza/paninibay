@@ -54,7 +54,7 @@ export default class OurStory extends Component {
                     {/* our-story-2 */}
                     <section className="margin-top-medium mvxl mobile-mbl container " id="our-chef-2">
                         <div className="row">
-                            <div className="col-xs-12 col-sm-6 offset-sm-0 col-md-5 offset-md-1 mtm">
+                            <div className="col-xs-12 col-sm-6 offset-sm-0 col-md-5  mtm">
                                 <div className="absoluteValign">
                                 <h2 className="mb-4">
                                     New Life After The Storm
@@ -68,7 +68,7 @@ export default class OurStory extends Component {
                                 </div>
                             </div>
 
-                            <div class="col-xs-12 col-sm-4 offset-sm-1 mobile-mtl">
+                            <div class="col-xs-12 col-sm-6 col-md-6 offset-sm-1 mobile-mtl">
 		                	    <img src="https://paninibay.com/wp-content/uploads/2017/05/inside-panini-bay.jpg" alt="Inside panini bay"/>
 		                    </div>
                         </div>

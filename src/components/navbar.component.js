@@ -23,7 +23,7 @@ export default class Navbar extends Component {
 
     // to shrink navbar when user scrolls down the page
     handleScroll(event){
-      if(event.target.documentElement.scrollTop > "250"){
+      if(event.target.documentElement.scrollTop > "250" || window.pageYOffset > "250"){
         this.refs.navbar.classList.remove('bg-light');
         this.refs.navbar.style.backgroundColor = "#fff";
         this.refs.logo.style.maxWidth = "110px";
@@ -45,7 +45,6 @@ export default class Navbar extends Component {
     })
 
     if(this.state.isActive == true){
-      this.refs.mySidenav.style.transform= "translate(0)";
       this.refs.mySidenav.classList.remove('show');
       this.refs.mySidenav.classList.add('hide');      
       this.refs.target.classList.remove('show');

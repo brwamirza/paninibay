@@ -143,7 +143,7 @@ export default class Home extends Component {
                 <img src="https://paninibay.com/wp-content/uploads/2017/05/bay-sunset-1.jpg" alt="Visit Panini Bay"/>
               </div>
 
-              <div className="col-xs-12 col-sm-5 col-md-4  offset-md-1 left-text">
+              <div className="col-xs-12 col-sm-5 col-md-5 col-lg-4 offset-lg-1 offset-xl-1 left-text">
                <h2 className="mv0 mobile-center">Visit Panini Bay</h2>
                <span className="block h3-size mbs mobile-center italic-text">by land <small style={{fontSize: "18px"}}>or</small> by sea</span>
                <span className="block h4-size mobile-center">101 Parker Road<br/>Tuckerton, NJ 08087</span>

@@ -24,7 +24,7 @@ export default class OurChef extends Component {
 
                             <div className="col-xs-12 col-sm-6">
                                 <div className="row full-height">
-                                    <div className="d-none d-sm-block col-sm-6 offset-md-1 grayBox grayCol mtx">
+                                    <div className="d-none d-sm-block col-sm-6 offset-md-1 grayBox grayCol margin-top-large">
 
                                     </div>
                                     <div className=" col-sx-12 col-sm-11 offset-sm-1 col-md-9 offset-md-2 col-lg-8 pull-up" style={{padding: "0"}}>
@@ -50,7 +50,7 @@ export default class OurChef extends Component {
                     {/* our-chef-2 */}
                     <section className="margin-top-medium mvxl mobile-mbl container " id="our-chef-2">
                         <div className="row">
-                            <div className="col-xs-12 col-sm-6 offset-sm-0 col-md-5 offset-md-1 mtm">
+                            <div className="col-xs-12 col-sm-6 offset-sm-0 col-md-5  mtm">
                                 <div className="absoluteValign">
                                 <p>
                                     Chef and owner Ivar Johnson graduated as valedictorian of The Restaurant School 
@@ -64,7 +64,7 @@ export default class OurChef extends Component {
                                 </div>
                             </div>
 
-                            <div class="col-xs-12 col-sm-4 offset-sm-1 mobile-mtl">
+                            <div class="col-xs-12 col-sm-6 offset-sm-1 mobile-mtl">
 		                	    <img src="https://paninibay.com/wp-content/uploads/2017/05/fire-cooking.jpg" alt="Chef Ivar"/>
 		                    </div>
                         </div>
@@ -73,7 +73,7 @@ export default class OurChef extends Component {
                      {/* our-chef-3 */}
                      <section className="mvxl mobile-mtl container">
                          <div className="row">
-                             <div className="col-xs-12 col-sm-5 offset-sm-1 order-sm-7 col-md-4 order-md-8 mtm">
+                             <div className="col-xs-12 col-sm-5 order-sm-7 col-md-6 order-md-8">
                                 <p>
                                     Chef Ivar showcases his culinary expertise and creativity with every dish. 
                                     Whether you are a seafood lover, steak lover, or a vegetarian, there is something 
