@@ -108,7 +108,12 @@ body {
     .mobile-mbl, .mobile-mvl {
         margin-bottom: 42px!important;
     }
+}
 
+@media screen and (max-width: 992px){
+    .grayBox-3{
+        display: none!important;
+    }
     .pull-up-3{
         margin-top: 0!important;
     }

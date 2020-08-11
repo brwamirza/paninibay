@@ -143,6 +143,16 @@ body {
     }
 }
 
+@media screen and (max-width: 992px){
+    .grayBox-2{
+        display: none!important;
+    }
+    .pull-up-2{
+        margin-top: 0!important;
+    }
+}
+
+
 .scrollDown {
     color: #d3d6dc;
     text-align: center;
@@ -204,5 +214,5 @@ h2{
 }
 
 .pull-up-2{
-    margin-top: -70px;
+    margin-top: -120px;
 }
